@@ -3,6 +3,7 @@ import AppFooter from "../components/AppFooter.vue";
 import AppHero from "../components/AppHero.vue";
 import AppOverview from "../components/AppOverview.vue";
 import AppPartners from "../components/AppPartners.vue";
+import AppPrivacyAndTerms from "../components/AppPrivacyAndTerms.vue";
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     AppOverview,
     AppFooter,
     AppPartners,
+    AppPrivacyAndTerms,
   },
 };
 </script>
@@ -19,6 +21,7 @@ export default {
     <AppHero />
     <AppOverview />
     <AppPartners />
+    <AppPrivacyAndTerms />
     <AppFooter />
   </main>
 </template>

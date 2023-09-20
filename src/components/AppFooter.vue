@@ -66,7 +66,7 @@ export default {
         </div>
       </article>
 
-      <article class="col-2 contact">
+      <article class="col-3 contact">
         <div class="contact-ctr">
           <h6 class="color-text">Contact Us</h6>
 
@@ -208,8 +208,8 @@ footer .rights {
 /* >= 900px */
 @media screen and (min-width: 56.25rem) {
   footer .content {
-    grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 1.5rem; */
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 3rem;
   }
 }
 
@@ -224,6 +224,12 @@ footer .rights {
 @media screen and (min-width: 75rem) {
   footer {
     padding-inline: 8rem;
+  }
+
+  footer .content {
+    grid-template-columns: 25.75rem 14rem auto;
+    justify-content: space-between;
+    gap: 0;
   }
 }
 </style>

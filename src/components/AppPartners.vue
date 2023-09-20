@@ -43,6 +43,7 @@ export default {
 .partners {
   text-align: center;
   padding-block: 2rem 6.5rem;
+  border-block-end: 1px solid #ffffff2e;
 }
 
 .partners h2 {
@@ -67,7 +68,7 @@ export default {
   width: 85%;
   margin-inline: auto;
   border: 2px solid #d434fe;
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 2.375rem 2.97rem;
   position: relative;
 }
@@ -92,7 +93,7 @@ export default {
 
 .logo-cell::after {
   content: "";
-  width: 4px;
+  width: 2px;
   background-color: #d434fe;
   position: absolute;
   right: 0;
@@ -114,7 +115,7 @@ export default {
 
 .logo-cell::before {
   content: "";
-  height: 4px;
+  height: 2px;
   background-color: #d434fe;
   position: absolute;
   left: 10%;
@@ -128,6 +129,16 @@ export default {
 .logo-cell:nth-of-type(5)::before,
 .logo-cell:nth-of-type(6)::before {
   background: transparent;
+}
+
+@media screen and (min-width: 45rem) {
+  .logo-cell::after {
+    width: 4px;
+  }
+
+  .logo-cell::before {
+    height: 4px;
+  }
 }
 
 @media screen and (min-width: 75rem) {

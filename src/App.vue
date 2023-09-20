@@ -5,16 +5,6 @@ import AppNavigation from "./components/AppNavigation.vue";
 
 <template>
   <AppNavigation />
-  <header>
-    <div class="wrapper">
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/register">Register</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-      </nav> -->
-    </div>
-  </header>
 
   <RouterView />
 </template>

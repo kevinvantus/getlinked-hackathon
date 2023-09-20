@@ -3,7 +3,7 @@
     <RouterLink to="/">
       <div class="logo">
         <span class="white">get</span>
-        <span class="pink">linked</span>
+        <span class="color-text">linked</span>
       </div>
     </RouterLink>
     <button type="button">
@@ -36,6 +36,11 @@ nav {
   align-items: center;
   padding: 1.75rem 3rem 1.3125rem;
   border-block-end: 1px solid #ffffff2e;
+  background-color: var(--color-background);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav .logo {
@@ -46,10 +51,6 @@ nav .logo {
 
 nav .logo span {
   font-weight: 700;
-}
-
-nav .logo .pink {
-  color: var(--color-primary);
 }
 
 nav button {
@@ -66,6 +67,12 @@ nav ul {
 @media screen and (min-width: 26.25rem) {
   .logo {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 45rem) {
+  nav {
+    padding-inline: 3rem;
   }
 }
 
@@ -89,6 +96,12 @@ nav ul {
 
   nav ul li:last-of-type {
     margin-inline-start: 4.0625rem;
+  }
+}
+
+@media screen and (min-width: 75rem) {
+  nav {
+    padding-inline: 8rem;
   }
 }
 </style>

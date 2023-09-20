@@ -54,6 +54,7 @@ button {
   cursor: pointer;
 }
 
-ul {
+ul,
+menu {
   list-style: none;
 }

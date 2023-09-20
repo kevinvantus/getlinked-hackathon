@@ -1,4 +1,5 @@
 <script>
+import AppFaqs from "../components/AppFaqs.vue";
 import AppFooter from "../components/AppFooter.vue";
 import AppHero from "../components/AppHero.vue";
 import AppOverview from "../components/AppOverview.vue";
@@ -12,6 +13,7 @@ export default {
     AppFooter,
     AppPartners,
     AppPrivacyAndTerms,
+    AppFaqs,
   },
 };
 </script>
@@ -20,6 +22,7 @@ export default {
   <main>
     <AppHero />
     <AppOverview />
+    <AppFaqs />
     <AppPartners />
     <AppPrivacyAndTerms />
     <AppFooter />

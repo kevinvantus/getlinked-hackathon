@@ -77,8 +77,6 @@ export default {
   padding-block: 4.375rem 5.25rem;
 }
 
-/* .grid-ctr {} */
-
 .privacy .col-1 {
   text-align: center;
 }

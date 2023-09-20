@@ -67,7 +67,7 @@ export default {
   width: 20.8125rem;
   width: 85%;
   margin-inline: auto;
-  border: 2px solid #d434fe;
+  border: 1px solid #d434fe;
   border-radius: 5px;
   padding: 2.375rem 2.97rem;
   position: relative;

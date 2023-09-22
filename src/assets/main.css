@@ -21,6 +21,14 @@ button.main {
   color: var(--color-primary);
 }
 
+.input-field:not(:last-of-type) {
+  margin-block-end: 1.25rem;
+}
+
+.form-submit-btn {
+  text-align: center;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
